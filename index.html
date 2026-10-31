@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+
+    <h1>Student Registration Form</h1>
+
+    <form>
+
+        <!-- Full Name -->  
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+        <br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password">
+        <br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label><br>
+
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+
+        <br><br>
+
+        <!-- Skills -->
+        <label>Skills:</label><br>
+
+        <input type="checkbox" id="html" name="skills" value="HTML">
+        <label for="html">HTML</label>
+
+        <input type="checkbox" id="css" name="skills" value="CSS">
+        <label for="css">CSS</label>
+
+        <input type="checkbox" id="javascript" name="skills" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+
+        <br><br>
+
+        <!-- Date of Birth -->
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob">
+
+        <br><br>
+
+        <!-- Register Button -->
+        <button type="submit">Register</button>
+
+    </form>
+
+    <hr>
+
+    <h2>Submitted Students (Dummy Data)</h2>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Gender</th>
+                <th>Skills</th>
+                <th>DOB</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Alice</td>
+                <td>alice@example.com</td>
+                <td>Female</td>
+                <td>HTML, CSS</td>
+                <td>2002-05-10</td>
+            </tr>
+
+            <tr>
+                <td>Bob</td>
+                <td>bob@example.com</td>
+                <td>Male</td>
+                <td>JavaScript</td>
+                <td>2001-11-22</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
